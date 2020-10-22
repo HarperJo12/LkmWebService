@@ -1,0 +1,29 @@
+    kelas
+    1 : Reguler
+    2 : Karyawan
+    3 : Eksekutif
+
+    status
+    0 : belum diproses
+    1 : diterima
+    2 : ditolak
+    3 : harap menghubungi ketua jurusan/dosen pembimbing
+
+    jenis tiket
+    1 : izin
+    2 : ujian
+    3 : perpindahan
+    4 : sidang
+	
+	LEVEL USER
+        0 = ADMIN
+        1 = MAHASISWA
+        2 = KETUA JURUSAN
+        3 = DOSEN PEMBIMBING
+        4 = CUSTOMER SERVICE
+		
+	Default Password 000000
+	
+	
+	You can use both migration or backupAdcLikmi.sql to initialize database for the first time. 
+	it would be easier if you use backupAdcLikmi.sql file to run on your mysql.
